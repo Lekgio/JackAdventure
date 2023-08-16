@@ -9,6 +9,19 @@ ResourceManager::ResourceManager()
 
 ResourceManager::~ResourceManager()
 {
+	for (auto it : m_MapTexture) {
+		if (it.second != nullptr) {
+			delete it.second;
+		}
+	}
+	m_MapTexture.clear();
+
+	for (auto it : m_MapFont) {
+		if (it.second != nullptr) {
+			delete it.second;
+		}
+	}
+	m_MapFont.clear();
 }
 
 void ResourceManager::addTexture(std::string name)
