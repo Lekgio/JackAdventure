@@ -1,4 +1,5 @@
-﻿  Application.cpp
-  JackAdventue.cpp
+﻿  JackAdventue.cpp
+  Application.cpp
+  ResourceManager.cpp
   Generating Code...
   JackAdventue.vcxproj -> D:\Hà\JackAdventue\x64\Debug\JackAdventue.exe

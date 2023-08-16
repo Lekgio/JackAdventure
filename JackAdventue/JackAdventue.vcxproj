@@ -133,14 +133,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Animation.cpp" />
-    <ClCompile Include="Application.cpp" />
     <ClCompile Include="JackAdventue.cpp" />
+    <ClCompile Include="Source\Application.cpp" />
+    <ClCompile Include="Source\GameManager\ResourceManager.cpp" />
+    <ClCompile Include="Source\GameObjects\Animation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animation.h" />
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="GameConfig.h" />
+    <ClInclude Include="Source\Application.h" />
+    <ClInclude Include="Source\GameConfig.h" />
+    <ClInclude Include="Source\GameManager\ResourceManager.h" />
+    <ClInclude Include="Source\GameManager\Singleton.h" />
+    <ClInclude Include="Source\GameObjects\Animation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
