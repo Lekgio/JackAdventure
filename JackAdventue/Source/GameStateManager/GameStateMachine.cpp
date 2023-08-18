@@ -3,7 +3,6 @@
 
 GameStateMachine::GameStateMachine()
 {
-    m_running = true;
     m_ActivesState = nullptr;
     m_NextState = nullptr;
 }
@@ -41,37 +40,38 @@ void GameStateMachine::PopState()
     if (!m_StateStack.empty()) {
         m_StateStack.back()->Resume();
     }
-}
-
-bool GameStateMachine::isRunning()
-{
-    return false;
-}
-
-void GameStateMachine::Quit()
-{
+    m_ActivesState = m_StateStack.back();
 }
 
 void GameStateMachine::PerformStateChange()
 {
+    if (m_NextState != nullptr) {
+        if (!m_StateStack.empty()) {
+            m_StateStack.back()->Exit();
+        }
+        m_StateStack.push_back(m_NextState);
+        m_StateStack.back()->Init();
+        m_ActivesState = m_NextState;
+    }
+    m_NextState = nullptr;
 }
 
 GameStateBase* GameStateMachine::currentState() const
 {
-    return nullptr;
+    return m_ActivesState;
 }
 
 GameStateBase* GameStateMachine::nextState() const
 {
-    return nullptr;
+    return m_NextState;
 }
 
 bool GameStateMachine::NeedToChangeState()
 {
-    return false;
+    return m_NextState = nullptr;
 }
 
 bool GameStateMachine::HasState()
 {
-    return false;
+    return m_StateStack.size() > 0;
 }

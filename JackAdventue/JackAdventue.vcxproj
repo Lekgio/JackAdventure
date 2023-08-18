@@ -137,6 +137,10 @@
     <ClCompile Include="Source\Application.cpp" />
     <ClCompile Include="Source\GameManager\ResourceManager.cpp" />
     <ClCompile Include="Source\GameObjects\Animation.cpp" />
+    <ClCompile Include="Source\GameStateManager\GameStateBase.cpp" />
+    <ClCompile Include="Source\GameStateManager\GameStateMachine.cpp" />
+    <ClCompile Include="Source\GameStateManager\GSIntro.cpp" />
+    <ClCompile Include="Source\GameStateManager\GSMenu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h" />
@@ -144,6 +148,10 @@
     <ClInclude Include="Source\GameManager\ResourceManager.h" />
     <ClInclude Include="Source\GameManager\Singleton.h" />
     <ClInclude Include="Source\GameObjects\Animation.h" />
+    <ClInclude Include="Source\GameStateManager\GameStateBase.h" />
+    <ClInclude Include="Source\GameStateManager\GameStateMachine.h" />
+    <ClInclude Include="Source\GameStateManager\GSIntro.h" />
+    <ClInclude Include="Source\GameStateManager\GSMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

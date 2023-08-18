@@ -22,9 +22,7 @@ public:
 	void PushState(StateTypes st);
 	void PopState();
 
-	bool isRunning();
-	void Quit();
-
+	
 	void PerformStateChange();
 
 	GameStateBase* currentState() const;
@@ -36,5 +34,4 @@ private:
 	std::list<GameStateBase*> m_StateStack;
 	GameStateBase* m_ActivesState;
 	GameStateBase* m_NextState;
-	bool m_running;
 };

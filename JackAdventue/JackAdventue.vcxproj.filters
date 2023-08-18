@@ -19,6 +19,9 @@
     <Filter Include="Source Files\GameManager">
       <UniqueIdentifier>{05335a9f-175c-4189-9a67-33e7d8c7baeb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameStateManager">
+      <UniqueIdentifier>{cc58a7d3-479f-454a-a316-312ffd531c05}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JackAdventue.cpp">
@@ -32,6 +35,18 @@
     </ClCompile>
     <ClCompile Include="Source\GameManager\ResourceManager.cpp">
       <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager\GameStateMachine.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager\GSIntro.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager\GSMenu.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager\GameStateBase.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +64,18 @@
     </ClInclude>
     <ClInclude Include="Source\GameManager\Singleton.h">
       <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager\GameStateBase.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager\GameStateMachine.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager\GSIntro.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager\GSMenu.h">
+      <Filter>Source Files\GameStateManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
