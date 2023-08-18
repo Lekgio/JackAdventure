@@ -1,4 +1,10 @@
-﻿  GSMenu.cpp
+﻿  JackAdventue.cpp
+  Application.cpp
+  GSEnd.cpp
+  GSIntro.cpp
+  GSMenu.cpp
+  GSPlay.cpp
   GameStateBase.cpp
+  GameStateMachine.cpp
   Generating Code...
   JackAdventue.vcxproj -> D:\Hà\JackAdventue\x64\Debug\JackAdventue.exe

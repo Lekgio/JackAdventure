@@ -4,5 +4,7 @@ D:\Hà\JackAdventue\JackAdventue\Source\GameManager\ResourceManager.cpp;D:\Hà\J
 D:\Hà\JackAdventue\JackAdventue\Source\GameObjects\Animation.cpp;D:\Hà\JackAdventue\JackAdventue\x64\Debug\Animation.obj
 D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GameStateBase.cpp;D:\Hà\JackAdventue\JackAdventue\x64\Debug\GameStateBase.obj
 D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GameStateMachine.cpp;D:\Hà\JackAdventue\JackAdventue\x64\Debug\GameStateMachine.obj
+D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GSEnd.cpp;D:\Hà\JackAdventue\JackAdventue\x64\Debug\GSEnd.obj
 D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GSIntro.cpp;D:\Hà\JackAdventue\JackAdventue\x64\Debug\GSIntro.obj
 D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GSMenu.cpp;D:\Hà\JackAdventue\JackAdventue\x64\Debug\GSMenu.obj
+D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GSPlay.cpp;D:\Hà\JackAdventue\JackAdventue\x64\Debug\GSPlay.obj

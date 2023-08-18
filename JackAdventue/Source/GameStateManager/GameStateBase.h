@@ -1,5 +1,5 @@
 #pragma once
-#include <SFML/Graphics.hpp>
+#include "../GameManager/ResourceManager.h"
 #include "GameStateMachine.h"
 
 class GameStateBase {

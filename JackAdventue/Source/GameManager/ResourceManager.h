@@ -3,6 +3,7 @@
 #include <map>
 #include <string>
 #include <SFML/Graphics.hpp>
+#include "../GameConfig.h"
 
 class ResourceManager :public CSingleton<ResourceManager>{
 public:

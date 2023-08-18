@@ -139,8 +139,10 @@
     <ClCompile Include="Source\GameObjects\Animation.cpp" />
     <ClCompile Include="Source\GameStateManager\GameStateBase.cpp" />
     <ClCompile Include="Source\GameStateManager\GameStateMachine.cpp" />
+    <ClCompile Include="Source\GameStateManager\GSEnd.cpp" />
     <ClCompile Include="Source\GameStateManager\GSIntro.cpp" />
     <ClCompile Include="Source\GameStateManager\GSMenu.cpp" />
+    <ClCompile Include="Source\GameStateManager\GSPlay.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h" />
@@ -150,8 +152,10 @@
     <ClInclude Include="Source\GameObjects\Animation.h" />
     <ClInclude Include="Source\GameStateManager\GameStateBase.h" />
     <ClInclude Include="Source\GameStateManager\GameStateMachine.h" />
+    <ClInclude Include="Source\GameStateManager\GSEnd.h" />
     <ClInclude Include="Source\GameStateManager\GSIntro.h" />
     <ClInclude Include="Source\GameStateManager\GSMenu.h" />
+    <ClInclude Include="Source\GameStateManager\GSPlay.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

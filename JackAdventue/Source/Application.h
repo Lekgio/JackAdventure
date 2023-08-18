@@ -1,8 +1,6 @@
 #pragma once
-#include <SFML/Graphics.hpp>
-#include "GameManager/ResourceManager.h"
 #include "GameStateManager/GameStateMachine.h"
-#include "GameConfig.h"
+#include "GameManager/ResourceManager.h"
 
 class Application {
 public:
