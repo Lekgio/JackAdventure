@@ -1,14 +1,17 @@
 #include "Application.h"
+#include "GameStateManager/GameStateBase.h"
 
 Application::~Application()
 {
-    if(m_window != nullptr) delete m_window;
+    if (m_window != nullptr) delete m_window;
 }
 
 void Application::Init()
 {
     m_window = new sf::RenderWindow(sf::VideoMode(screenWidth, screenHeight), titleGame, sf::Style::Close);
-    m_Sprite.setTexture(*ResourceManager::GetInstance()->getTexture("HB"));
+    m_window->setFramerateLimit(60);
+    m_window->setVerticalSyncEnabled(false);
+    GameStateMachine::GetInstance()->ChangeState(StateTypes::INTRO);
 }
 
 void Application::Run()
@@ -32,6 +35,13 @@ void Application::Run()
 
 void Application::Update(float deltaTime)
 {
+    if (GameStateMachine::GetInstance()->NeedToChangeState()) {
+        GameStateMachine::GetInstance()->PerformStateChange();
+    }
+    GameStateMachine::GetInstance()->currentState()->Update(deltaTime);
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
+        GameStateMachine::GetInstance()->ChangeState(StateTypes::MENU);
+    }
     // Doing something
 }
 
@@ -39,6 +49,6 @@ void Application::Render()
 {
     m_window->clear(sf::Color::White);
     // Drawing something
-    m_window->draw(m_Sprite);
+    GameStateMachine::GetInstance()->currentState()->Render(m_window);
     m_window->display();
 }

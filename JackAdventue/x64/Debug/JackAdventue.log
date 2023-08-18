@@ -1,10 +1,4 @@
-﻿  GameStateBase.cpp
-D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GameStateBase.h(5,18): warning C4091: 'extern ': ignored on left of 'StateTypes' when no variable is declared
-  GameStateMachine.cpp
-D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GameStateBase.h(5,18): warning C4091: 'extern ': ignored on left of 'StateTypes' when no variable is declared
-  GSIntro.cpp
-D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GameStateBase.h(5,18): warning C4091: 'extern ': ignored on left of 'StateTypes' when no variable is declared
-  GSMenu.cpp
-D:\Hà\JackAdventue\JackAdventue\Source\GameStateManager\GameStateBase.h(5,18): warning C4091: 'extern ': ignored on left of 'StateTypes' when no variable is declared
+﻿  GSMenu.cpp
+  GameStateBase.cpp
   Generating Code...
   JackAdventue.vcxproj -> D:\Hà\JackAdventue\x64\Debug\JackAdventue.exe

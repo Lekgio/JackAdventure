@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include "GameManager/ResourceManager.h"
+#include "GameStateManager/GameStateMachine.h"
 #include "GameConfig.h"
 
 class Application {
@@ -13,5 +14,4 @@ private:
 	void Render();
 private:
 	sf::RenderWindow* m_window;
-	sf::Sprite m_Sprite;
 };

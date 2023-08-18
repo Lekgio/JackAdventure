@@ -13,4 +13,7 @@ public:
 	void Init();
 	void Update(float deltaTime);
 	void Render(sf::RenderWindow* window);
+private:
+	sf::RectangleShape shape;
+	float m_currentTime;
 };

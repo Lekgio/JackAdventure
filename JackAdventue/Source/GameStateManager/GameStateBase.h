@@ -2,8 +2,6 @@
 #include <SFML/Graphics.hpp>
 #include "GameStateMachine.h"
 
-extern StateTypes;
-
 class GameStateBase {
 public:
 	GameStateBase(){}

@@ -9,6 +9,10 @@ GameStateMachine::GameStateMachine()
 
 GameStateMachine::~GameStateMachine()
 {
+    while (!m_StateStack.empty()) {
+        delete m_StateStack.back();
+        m_StateStack.pop_back();
+    }
 }
 
 void GameStateMachine::ChangeState(GameStateBase* state)
@@ -68,7 +72,7 @@ GameStateBase* GameStateMachine::nextState() const
 
 bool GameStateMachine::NeedToChangeState()
 {
-    return m_NextState = nullptr;
+    return m_NextState != nullptr;
 }
 
 bool GameStateMachine::HasState()
