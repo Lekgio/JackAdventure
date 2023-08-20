@@ -12,6 +12,7 @@ void Application::Init()
     m_window->setFramerateLimit(60);
     m_window->setVerticalSyncEnabled(false);
     GameStateMachine::GetInstance()->ChangeState(StateTypes::INTRO);
+    WConnect->setWindow(m_window);
 }
 
 void Application::Run()

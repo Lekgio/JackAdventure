@@ -1,8 +1,7 @@
 #pragma once
-#include "Singleton.h"
 #include <map>
 #include <string>
-#include <SFML/Graphics.hpp>
+#include "../GameObjects/GameButton.h"
 #include "../GameConfig.h"
 
 class ResourceManager :public CSingleton<ResourceManager>{

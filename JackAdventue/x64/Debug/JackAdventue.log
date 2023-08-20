@@ -1,5 +1,7 @@
 ﻿  JackAdventue.cpp
   Application.cpp
+  ResourceManager.cpp
+  GameButton.cpp
   GSEnd.cpp
   GSIntro.cpp
   GSMenu.cpp

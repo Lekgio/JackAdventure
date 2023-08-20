@@ -1,6 +1,7 @@
 #pragma once
 #include "GameStateManager/GameStateMachine.h"
 #include "GameManager/ResourceManager.h"
+#include "GameObjects/GameButton.h"
 
 class Application {
 public:

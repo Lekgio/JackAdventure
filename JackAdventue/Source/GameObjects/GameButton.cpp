@@ -2,7 +2,7 @@
 
 GameButton::GameButton()
 {
-	m_isHanding = false;
+	m_isHandling = false;
 }
 
 GameButton::~GameButton()
@@ -17,6 +17,9 @@ void GameButton::Init()
 
 void GameButton::Update(float deltaTime)
 {
+	if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
+		HandleTouchEvent();
+	}
 }
 
 void GameButton::Render(sf::RenderWindow* window)
@@ -26,10 +29,20 @@ void GameButton::Render(sf::RenderWindow* window)
 
 void GameButton::HandleTouchEvent()
 {
-	if (this->getGlobalBounds().contains((sf::Vector2f)sf::Mouse::getPosition(*WConnect->getWindow())));
+	m_isHandling = false;
+	if (this->getGlobalBounds().contains((sf::Vector2f)sf::Mouse::getPosition(*WConnect->getWindow())))
+	{
+		m_btnClickFunc();
+		m_isHandling = true;
+	}
 }
 
 bool GameButton::isHandle()
 {
-	return m_isHanding;
+	return m_isHandling;
+}
+
+void GameButton::setOnClick(void(*Func)())
+{
+	m_btnClickFunc = Func;
 }

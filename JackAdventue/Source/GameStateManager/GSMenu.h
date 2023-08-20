@@ -14,5 +14,5 @@ public:
 	void Update(float deltaTime);
 	void Render(sf::RenderWindow* window);
 private:
-	sf::CircleShape shape;
+	std::list<GameButton*> m_ListBtn;
 };

@@ -13,7 +13,9 @@ public:
 
 	void HandleTouchEvent();
 	bool isHandle();
+
+	void setOnClick(void (*Func)());
 private:
-	void (*btnClickFunc)();
-	bool m_isHanding;
+	void (*m_btnClickFunc)();
+	bool m_isHandling;
 };

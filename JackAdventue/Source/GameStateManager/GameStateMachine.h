@@ -2,6 +2,8 @@
 #include "../GameManager/Singleton.h"
 #include <list>
 
+#define GSM GameStateMachine::GetInstance()
+
 class GameStateBase;
 
 enum StateTypes {
