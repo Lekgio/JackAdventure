@@ -6,3 +6,5 @@
 Ngôn ngữ lập trình: C++
 
 Thư viện đồ hoạ: SFML 2.6.0
+
+-Đang cập nhật project-
