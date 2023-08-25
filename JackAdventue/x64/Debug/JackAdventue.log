@@ -1,16 +1,7 @@
-﻿  JackAdventue.cpp
-  Application.cpp
-  ResourceManager.cpp
-  GameStateBase.cpp
-  GameStateMachine.cpp
-  GSEnd.cpp
-  GSIntro.cpp
-  GSMenu.cpp
-D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSMenu.cpp(45,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+﻿  GSMenu.cpp
+D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSMenu.cpp(72,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-  GSPlay.cpp
-  Generating Code...
   JackAdventue.vcxproj -> D:\Hà\JackAdventure\x64\Debug\JackAdventue.exe

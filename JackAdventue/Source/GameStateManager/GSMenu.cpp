@@ -23,19 +23,46 @@ void GSMenu::Resume()
 void GSMenu::Init()
 {
 	GameButton* button;
-	// Exit button
-	button = new GameButton();
-	button->Init();
-	button->setOnClick([]() {WConnect->getWindow()->close(); });
-	m_ListBtn.push_back(button);
 
 	// Play Button
 	button = new GameButton();
-	button->Init();
+	button->Init("play");
 	button->setOnClick([]() {GSM->ChangeState(StateTypes::PLAY); });
-	button->setPosition(screenWidth / 2, screenHeight / 2 );
-	button->setFillColor(sf::Color::Red);
+	button->setPosition(screenWidth / 2, screenHeight / 2 + screenHeight / 10);
+	button->setSize(sf::Vector2f(150, 150));
 	button->setOrigin(button->getSize() / 2.f);
+	m_ListBtn.push_back(button);
+
+	// Exit button
+	button = new GameButton();
+	button->Init("close");
+	button->setOrigin(button->getSize() / 2.f);
+	button->setPosition(screenWidth / 2 + screenWidth / 4, screenHeight - screenHeight / 8);
+	button->setOnClick([]() {WConnect->getWindow()->close(); });
+	m_ListBtn.push_back(button);
+
+	// Setting button
+	button = new GameButton();
+	button->Init("settings");
+	button->setOrigin(button->getSize() / 2.f);
+	button->setPosition(screenWidth / 2 - screenWidth / 4, screenHeight - screenHeight / 8);
+	button->setOnClick([]() {WConnect->getWindow()->close(); });
+	m_ListBtn.push_back(button);
+
+	// About button
+	button = new GameButton();
+	button->Init("about");
+	button->setOrigin(button->getSize() / 2.f);
+	button->setPosition(screenWidth / 2 + screenWidth / 12, screenHeight - screenHeight / 8);
+	button->setOnClick([]() {WConnect->getWindow()->close(); });
+	m_ListBtn.push_back(button);
+
+	// High Score button
+	button = new GameButton();
+	button->Init("prize");
+	button->setOrigin(button->getSize() / 2.f);
+	button->setPosition(screenWidth / 2 - screenWidth / 12, screenHeight - screenHeight / 8);
+	button->setOnClick([]() {WConnect->getWindow()->close(); });
 	m_ListBtn.push_back(button);
 
 	// Background

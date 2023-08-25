@@ -9,10 +9,10 @@ GameButton::~GameButton()
 {
 }
 
-void GameButton::Init()
+void GameButton::Init(std::string name)
 {
+	this->setTexture(DATA->getTexture("btn/" + name));
 	this->setSize(sf::Vector2f(100, 100));
-	this->setFillColor(sf::Color::Green);
 }
 
 void GameButton::Update(float deltaTime)
