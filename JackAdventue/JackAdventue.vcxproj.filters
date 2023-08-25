@@ -22,6 +22,9 @@
     <Filter Include="Source Files\GameStateManager">
       <UniqueIdentifier>{cc58a7d3-479f-454a-a316-312ffd531c05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameObjects\Parallax Background">
+      <UniqueIdentifier>{4b134364-d198-42b1-9e9c-922140249479}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JackAdventue.cpp">
@@ -68,6 +71,9 @@
     </ClCompile>
     <ClCompile Include="Source\GameStateManager\GSHighScore.cpp">
       <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjects\Layer.cpp">
+      <Filter>Source Files\GameObjects\Parallax Background</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +124,9 @@
     </ClInclude>
     <ClInclude Include="Source\GameStateManager\GSHighScore.h">
       <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\Layer.h">
+      <Filter>Source Files\GameObjects\Parallax Background</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

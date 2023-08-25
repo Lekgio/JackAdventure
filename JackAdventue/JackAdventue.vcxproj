@@ -139,6 +139,7 @@
     <ClCompile Include="Source\GameManager\WindowConnector.cpp" />
     <ClCompile Include="Source\GameObjects\Animation.cpp" />
     <ClCompile Include="Source\GameObjects\GameButton.cpp" />
+    <ClCompile Include="Source\GameObjects\Layer.cpp" />
     <ClCompile Include="Source\GameStateManager\GameStateBase.cpp" />
     <ClCompile Include="Source\GameStateManager\GameStateMachine.cpp" />
     <ClCompile Include="Source\GameStateManager\GSAbout.cpp" />
@@ -157,6 +158,7 @@
     <ClInclude Include="Source\GameManager\WindowConnector.h" />
     <ClInclude Include="Source\GameObjects\Animation.h" />
     <ClInclude Include="Source\GameObjects\GameButton.h" />
+    <ClInclude Include="Source\GameObjects\Layer.h" />
     <ClInclude Include="Source\GameStateManager\GameStateBase.h" />
     <ClInclude Include="Source\GameStateManager\GameStateMachine.h" />
     <ClInclude Include="Source\GameStateManager\GSAbout.h" />

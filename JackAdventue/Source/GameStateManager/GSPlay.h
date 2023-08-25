@@ -1,5 +1,7 @@
 #pragma once
 #include "GameStateBase.h"
+#include "../GameObjects/Layer.h"
+
 
 class GSPlay :public GameStateBase {
 public:
@@ -14,5 +16,5 @@ public:
 	void Update(float deltaTime);
 	void Render(sf::RenderWindow* window);
 private:
-	sf::CircleShape shape;
+	Layer m_bg;
 };

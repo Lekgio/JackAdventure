@@ -1,14 +1,23 @@
-﻿  GSAbout.cpp
-D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSAbout.cpp(40,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+﻿  Layer.cpp
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Layer.cpp(12,66): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
-              T=unsigned int
+              T=float
           ]
-  GSHighScore.cpp
-D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSHighScore.cpp(40,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Layer.cpp(22,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Layer.cpp(23,67): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
-              T=unsigned int
+              T=float
           ]
-  Generating Code...
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Layer.cpp(39,49): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Layer.cpp(39,29): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
   JackAdventue.vcxproj -> D:\Hà\JackAdventure\x64\Debug\JackAdventue.exe
