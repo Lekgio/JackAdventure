@@ -14,6 +14,6 @@ public:
 	void Update(float deltaTime);
 	void Render(sf::RenderWindow* window);
 private:
-	sf::RectangleShape shape;
+	sf::Sprite m_Logo;
 	float m_currentTime;
 };

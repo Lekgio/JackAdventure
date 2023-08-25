@@ -22,6 +22,7 @@ void GSPlay::Resume()
 
 void GSPlay::Init()
 {
+	printf("Play game");
 }
 
 void GSPlay::Update(float deltaTime)

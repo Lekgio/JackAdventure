@@ -4,6 +4,8 @@
 #include "../GameObjects/GameButton.h"
 #include "../GameConfig.h"
 
+#define DATA ResourceManager::GetInstance()
+
 class ResourceManager :public CSingleton<ResourceManager>{
 public:
 	ResourceManager();
