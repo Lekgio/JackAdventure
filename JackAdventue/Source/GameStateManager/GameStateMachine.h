@@ -11,6 +11,9 @@ enum StateTypes {
 	INTRO,
 	MENU,
 	PLAY,
+	SETTING,
+	ABOUT,
+	HIGHSCORE,
 	END,
 };
 

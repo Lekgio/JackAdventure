@@ -32,7 +32,7 @@ void GSIntro::Init()
 void GSIntro::Update(float deltaTime)
 {
 	m_currentTime += deltaTime;
-	if (m_currentTime >= 0.f) {
+	if (m_currentTime >= 4.f) {
 		GameStateMachine::GetInstance()->ChangeState(StateTypes::MENU);
 	}
 }

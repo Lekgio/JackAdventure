@@ -46,7 +46,7 @@ void GSMenu::Init()
 	button->Init("settings");
 	button->setOrigin(button->getSize() / 2.f);
 	button->setPosition(screenWidth / 2 - screenWidth / 4, screenHeight - screenHeight / 8);
-	button->setOnClick([]() {WConnect->getWindow()->close(); });
+	button->setOnClick([]() {GSM->ChangeState(StateTypes::SETTING); });
 	m_ListBtn.push_back(button);
 
 	// About button
@@ -54,7 +54,7 @@ void GSMenu::Init()
 	button->Init("about");
 	button->setOrigin(button->getSize() / 2.f);
 	button->setPosition(screenWidth / 2 + screenWidth / 12, screenHeight - screenHeight / 8);
-	button->setOnClick([]() {WConnect->getWindow()->close(); });
+	button->setOnClick([]() {GSM->ChangeState(StateTypes::ABOUT); });
 	m_ListBtn.push_back(button);
 
 	// High Score button
@@ -62,7 +62,7 @@ void GSMenu::Init()
 	button->Init("prize");
 	button->setOrigin(button->getSize() / 2.f);
 	button->setPosition(screenWidth / 2 - screenWidth / 12, screenHeight - screenHeight / 8);
-	button->setOnClick([]() {WConnect->getWindow()->close(); });
+	button->setOnClick([]() {GSM->ChangeState(StateTypes::HIGHSCORE); });
 	m_ListBtn.push_back(button);
 
 	// Background
@@ -85,5 +85,4 @@ void GSMenu::Render(sf::RenderWindow* window)
 	for (auto btn : m_ListBtn) {
 		btn->Render(window);
 	}
-
 }

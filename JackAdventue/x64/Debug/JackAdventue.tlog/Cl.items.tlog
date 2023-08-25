@@ -6,7 +6,10 @@ D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Animation.cpp;D:\Hà\JackAd
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\GameButton.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GameButton.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GameStateBase.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GameStateBase.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GameStateMachine.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GameStateMachine.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSAbout.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GSAbout.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSEnd.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GSEnd.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSHighScore.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GSHighScore.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSIntro.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GSIntro.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSMenu.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GSMenu.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSPlay.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GSPlay.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSSetting.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GSSetting.obj
