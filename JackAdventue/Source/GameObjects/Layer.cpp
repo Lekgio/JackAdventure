@@ -1,12 +1,12 @@
 #include "Layer.h"
 
-void Layer::Init(std::string name)
+void Layer::Init(std::string name,float speed)
 {
 	sf::Texture* texture = DATA->getTexture(name);
 	m_Image1.setTexture(*texture);
 	m_Image2.setTexture(*texture);
 
-	m_Speed = 100;
+	m_Speed = speed;
 
 	m_SizeImage = (sf::Vector2i)texture->getSize();
 	m_Image1.setPosition(sf::Vector2f(screenWidth / 2, screenHeight - m_SizeImage.y / 2));
@@ -18,13 +18,13 @@ void Layer::Init(std::string name)
 
 void Layer::Update(float deltaTime)
 {
-	if (m_Image2.getPosition().x <= (float)screenWidth / 2) {
-		int delta = (float)screenWidth / 2 - m_Image2.getPosition().x;
-		m_Image1.setPosition(sf::Vector2f(screenWidth / 2, screenHeight - m_SizeImage.y / 2));
-		m_Image2.setPosition(m_SizeImage.x * 1.5f, m_Image1.getPosition().y);
-	}
 	m_Image1.move(-m_Speed * deltaTime, 0);
 	m_Image2.move(-m_Speed * deltaTime, 0);
+
+	if (m_Image2.getPosition().x <= (float)screenWidth / 2) {
+		m_Image1.setPosition(sf::Vector2f(screenWidth / 2 , screenHeight - m_SizeImage.y / 2));
+		m_Image2.setPosition(m_SizeImage.x * 1.5f, m_Image1.getPosition().y);
+	}
 }
 
 void Layer::Render(sf::RenderWindow* window)

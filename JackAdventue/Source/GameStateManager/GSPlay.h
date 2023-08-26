@@ -1,6 +1,6 @@
 #pragma once
 #include "GameStateBase.h"
-#include "../GameObjects/Layer.h"
+#include "../GameObjects/ParallaxBackground.h"
 
 
 class GSPlay :public GameStateBase {
@@ -16,5 +16,5 @@ public:
 	void Update(float deltaTime);
 	void Render(sf::RenderWindow* window);
 private:
-	Layer m_bg;
+	ParallaxBackground m_Background;
 };

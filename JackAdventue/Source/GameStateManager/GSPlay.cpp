@@ -23,15 +23,15 @@ void GSPlay::Resume()
 void GSPlay::Init()
 {
 	printf("Play game");
-	m_bg.Init("/Background layers/Background");
+	m_Background.Init();
 }
 
 void GSPlay::Update(float deltaTime)
 {
-	m_bg.Update(deltaTime);
+	m_Background.Update(deltaTime);
 }
 
 void GSPlay::Render(sf::RenderWindow* window)
 {
-	m_bg.Render(window);
+	m_Background.Render(window);
 }

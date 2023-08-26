@@ -1,5 +1,6 @@
 #pragma once
 #include <map>
+#include <list>
 #include <string>
 #include "../GameObjects/GameButton.h"
 #include "../GameConfig.h"

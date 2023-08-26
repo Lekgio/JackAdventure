@@ -3,7 +3,7 @@
 
 class Layer {
 public:
-	void Init(std::string name);
+	void Init(std::string name, float speed);
 	void Update(float deltaTime);
 	void Render(sf::RenderWindow* window);
 	void setPosition(sf::Vector2i pos);
