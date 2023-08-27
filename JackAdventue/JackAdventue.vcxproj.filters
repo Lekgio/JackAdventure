@@ -17,6 +17,9 @@
     <Filter Include="Source Files\GameObjects\Parallax Background">
       <UniqueIdentifier>{4b134364-d198-42b1-9e9c-922140249479}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameObjects\Player">
+      <UniqueIdentifier>{30c89355-736e-47f2-9469-3d50702cd246}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JackAdventue.cpp">
