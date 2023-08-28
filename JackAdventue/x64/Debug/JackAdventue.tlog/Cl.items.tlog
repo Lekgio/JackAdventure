@@ -7,6 +7,10 @@ D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\GameButton.cpp;D:\Hà\JackA
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Layer.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\Layer.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\ParallaxBackground.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\ParallaxBackground.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Player.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\Player.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\PSAttack.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\PSAttack.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\PSDeath.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\PSDeath.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\PSFall.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\PSFall.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\PSJump.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\PSJump.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\PSRun.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\PSRun.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GameStateBase.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GameStateBase.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GameStateMachine.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GameStateMachine.obj

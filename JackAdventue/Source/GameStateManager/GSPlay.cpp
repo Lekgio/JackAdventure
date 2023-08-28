@@ -22,7 +22,7 @@ void GSPlay::Resume()
 
 void GSPlay::Init()
 {
-	printf("Play game");
+	printf("Play game\n");
 	m_Background.Init();
 	m_Player.Init();
 }

@@ -1,13 +1,18 @@
 #include "Player.h"
 #include "PSRun.h"
+#include "PSJump.h"
+#include "PSFall.h"
+#include "PSAttack.h"
+#include "PSDeath.h"
 
 Player::Player()
 {
+	m_nextState = IPState::SNULL;
 	m_runState = new PSRun(this);
-	m_jumpState;
-	m_fallState;
-	m_deathState;
-	m_attackState;
+	m_jumpState = new PSJump(this);
+	m_fallState = new PSFall(this);
+	m_deathState = new PSDeath(this);
+	m_attackState = new PSAttack(this);
 	m_currentState = m_runState;
 }
 
@@ -33,22 +38,21 @@ Player::~Player()
 
 void Player::changeNextState(IPState::STATE nextState)
 {
-	m_nextState = m_nextState;
+	m_nextState = nextState;
 }
 
 void Player::Init()
 {
 	m_runState->Init();
-	/*
 	m_jumpState->Init();
 	m_fallState->Init();
 	m_deathState->Init();
 	m_attackState->Init();
-	*/
 }
 
 void Player::Update(float deltaTime)
 {
+	performStateChange();
 	m_currentState->Update(deltaTime);
 }
 
@@ -63,17 +67,23 @@ void Player::performStateChange()
 		switch (m_nextState)
 		{
 		case IPState::RUN:
+			m_currentState = m_runState;
 			break;
 		case IPState::JUMP:
+			m_currentState = m_jumpState;
 			break;
 		case IPState::FALL:
+			m_currentState = m_fallState;
 			break;
 		case IPState::ATTACK:
+			m_currentState = m_attackState;
 			break;
 		case IPState::DEATH:
+			m_currentState = m_deathState;
 			break;
 		default:
 			break;
 		}
+		m_nextState = IPState::SNULL;
 	}
 }

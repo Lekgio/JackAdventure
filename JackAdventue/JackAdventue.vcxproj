@@ -142,6 +142,10 @@
     <ClCompile Include="Source\GameObjects\Layer.cpp" />
     <ClCompile Include="Source\GameObjects\ParallaxBackground.cpp" />
     <ClCompile Include="Source\GameObjects\Player.cpp" />
+    <ClCompile Include="Source\GameObjects\PSAttack.cpp" />
+    <ClCompile Include="Source\GameObjects\PSDeath.cpp" />
+    <ClCompile Include="Source\GameObjects\PSFall.cpp" />
+    <ClCompile Include="Source\GameObjects\PSJump.cpp" />
     <ClCompile Include="Source\GameObjects\PSRun.cpp" />
     <ClCompile Include="Source\GameStateManager\GameStateBase.cpp" />
     <ClCompile Include="Source\GameStateManager\GameStateMachine.cpp" />
@@ -166,6 +170,10 @@
     <ClInclude Include="Source\GameObjects\Layer.h" />
     <ClInclude Include="Source\GameObjects\ParallaxBackground.h" />
     <ClInclude Include="Source\GameObjects\Player.h" />
+    <ClInclude Include="Source\GameObjects\PSAttack.h" />
+    <ClInclude Include="Source\GameObjects\PSDeath.h" />
+    <ClInclude Include="Source\GameObjects\PSFall.h" />
+    <ClInclude Include="Source\GameObjects\PSJump.h" />
     <ClInclude Include="Source\GameObjects\PSRun.h" />
     <ClInclude Include="Source\GameStateManager\GameStateBase.h" />
     <ClInclude Include="Source\GameStateManager\GameStateMachine.h" />

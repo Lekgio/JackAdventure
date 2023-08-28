@@ -13,6 +13,14 @@ void PSRun::Init()
 void PSRun::Update(float deltaTime)
 {
 	m_Animation->Update(deltaTime);
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) {
+		m_Player->changeNextState(JUMP);
+		printf("player jump\n");
+	}
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
+		m_Player->changeNextState(ATTACK);
+		printf("player attack\n");
+	}
 }
 
 void PSRun::Render(sf::RenderWindow* window)
