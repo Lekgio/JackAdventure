@@ -1,8 +1,6 @@
 #pragma once
 #include "../GameManager/ResourceManager.h"
 
-class IPlayer;
-
 class IPState {
 public:
 	enum STATE

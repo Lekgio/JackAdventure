@@ -1,5 +1,6 @@
 #pragma once
 #include "IPState.h"
+#include "IPlayer.h"
 
 class PSRun :public IPState{
 public:
@@ -9,4 +10,6 @@ public:
 	void Render(sf::RenderWindow* window);
 private:
 	IPlayer* m_Player;
+	Animation* m_Animation;
+	
 };

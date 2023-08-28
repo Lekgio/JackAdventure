@@ -1,13 +1,14 @@
 #include "Player.h"
+#include "PSRun.h"
 
 Player::Player()
 {
-	m_currentState = nullptr;
-	m_runState;
+	m_runState = new PSRun(this);
 	m_jumpState;
 	m_fallState;
 	m_deathState;
 	m_attackState;
+	m_currentState = m_runState;
 }
 
 Player::~Player()
@@ -38,10 +39,12 @@ void Player::changeNextState(IPState::STATE nextState)
 void Player::Init()
 {
 	m_runState->Init();
+	/*
 	m_jumpState->Init();
 	m_fallState->Init();
 	m_deathState->Init();
 	m_attackState->Init();
+	*/
 }
 
 void Player::Update(float deltaTime)

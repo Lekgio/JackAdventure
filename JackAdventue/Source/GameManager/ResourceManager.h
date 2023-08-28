@@ -3,6 +3,7 @@
 #include <list>
 #include <string>
 #include "../GameObjects/GameButton.h"
+#include "../GameObjects/Animation.h"
 #include "../GameConfig.h"
 
 #define DATA ResourceManager::GetInstance()

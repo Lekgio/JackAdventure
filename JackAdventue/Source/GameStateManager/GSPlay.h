@@ -1,7 +1,7 @@
 #pragma once
 #include "GameStateBase.h"
 #include "../GameObjects/ParallaxBackground.h"
-
+#include "../GameObjects/Player.h"
 
 class GSPlay :public GameStateBase {
 public:
@@ -17,4 +17,5 @@ public:
 	void Render(sf::RenderWindow* window);
 private:
 	ParallaxBackground m_Background;
+	Player m_Player;
 };

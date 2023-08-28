@@ -73,6 +73,12 @@
     <ClCompile Include="Source\GameObjects\ParallaxBackground.cpp">
       <Filter>Source Files\GameObjects\Parallax Background</Filter>
     </ClCompile>
+    <ClCompile Include="Source\GameObjects\Player.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjects\PSRun.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h">
@@ -128,6 +134,18 @@
     </ClInclude>
     <ClInclude Include="Source\GameObjects\ParallaxBackground.h">
       <Filter>Source Files\GameObjects\Parallax Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\IPlayer.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\IPState.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\Player.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\PSRun.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

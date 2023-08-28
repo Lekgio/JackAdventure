@@ -3,7 +3,7 @@
 
 class IPlayer {
 public:
-	virtual void changeNextState(IPState nextState) = 0;
+	virtual void changeNextState(IPState::STATE nextState) = 0;
 private:
 
 };

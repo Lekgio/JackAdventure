@@ -1,3 +1,13 @@
-﻿  ResourceManager.cpp
+﻿  Player.cpp
+  PSRun.cpp
+  GameStateBase.cpp
+  GSPlay.cpp
+  GSSetting.cpp
+D:\Hà\JackAdventure\JackAdventue\Source\GameStateManager\GSSetting.cpp(40,57): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Generating Code...
   LINK : D:\Hà\JackAdventure\x64\Debug\JackAdventue.exe not found or not built by the last incremental link; performing full link
   JackAdventue.vcxproj -> D:\Hà\JackAdventure\x64\Debug\JackAdventue.exe
