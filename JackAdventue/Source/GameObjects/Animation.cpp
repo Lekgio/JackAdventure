@@ -10,6 +10,7 @@ Animation::Animation(sf::Texture& texture, sf::Vector2i frameNum, float frameTim
 	CalculateRectSize();
 	CalculateRectUV();
 	ApplyRect();
+	this->setOrigin((sf::Vector2f)m_rectSize / 2.f);
 }
 
 void Animation::CalculateRectSize()

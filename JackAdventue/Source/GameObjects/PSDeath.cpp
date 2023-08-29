@@ -16,6 +16,7 @@ void PSDeath::Update(float deltaTime)
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
 		m_Player->changeNextState(RUN);
 	}
+	m_Animation->setPosition(m_Player->getHitBox()->getPosition());
 }
 
 void PSDeath::Render(sf::RenderWindow* window)

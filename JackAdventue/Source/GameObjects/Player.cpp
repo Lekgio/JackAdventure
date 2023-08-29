@@ -48,17 +48,27 @@ void Player::Init()
 	m_fallState->Init();
 	m_deathState->Init();
 	m_attackState->Init();
+
+	m_HitBox = new HitBox(sf::Vector2i(15, 30));
+	m_HitBox->setPosition(400, 400);
 }
 
 void Player::Update(float deltaTime)
 {
 	performStateChange();
 	m_currentState->Update(deltaTime);
+
 }
 
 void Player::Render(sf::RenderWindow* window)
 {
 	m_currentState->Render(window);
+	window->draw(*m_HitBox);
+}
+
+HitBox* Player::getHitBox()
+{
+	return m_HitBox;
 }
 
 void Player::performStateChange()

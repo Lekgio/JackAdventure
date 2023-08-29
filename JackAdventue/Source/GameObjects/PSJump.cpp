@@ -15,8 +15,8 @@ void PSJump::Update(float deltaTime)
 	m_Animation->Update(deltaTime);
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
 		m_Player->changeNextState(FALL);
-		printf("player fall\n");
 	}
+	m_Animation->setPosition(m_Player->getHitBox()->getPosition());
 }
 
 void PSJump::Render(sf::RenderWindow* window)

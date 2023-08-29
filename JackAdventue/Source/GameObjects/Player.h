@@ -12,8 +12,12 @@ public:
 	void Update(float deltaTime);
 	void Render(sf::RenderWindow* window);
 
+	HitBox* getHitBox();
+
 private:
 	void performStateChange();
+	HitBox* m_HitBox;
+
 	IPState::STATE m_nextState;
 
 	IPState* m_currentState;

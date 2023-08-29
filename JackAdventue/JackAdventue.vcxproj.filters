@@ -91,6 +91,9 @@
     <ClCompile Include="Source\GameObjects\PSDeath.cpp">
       <Filter>Source Files\GameObjects\Player</Filter>
     </ClCompile>
+    <ClCompile Include="Source\GameObjects\HitBox.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h">
@@ -170,6 +173,9 @@
     </ClInclude>
     <ClInclude Include="Source\GameObjects\PSDeath.h">
       <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\HitBox.h">
+      <Filter>Source Files\GameObjects</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
