@@ -40,9 +40,6 @@ void Application::Update(float deltaTime)
         GameStateMachine::GetInstance()->PerformStateChange();
     }
     GameStateMachine::GetInstance()->currentState()->Update(deltaTime);
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
-        GameStateMachine::GetInstance()->ChangeState(StateTypes::MENU);
-    }
     // Doing something
 }
 
