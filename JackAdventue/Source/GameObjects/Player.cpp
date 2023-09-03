@@ -95,5 +95,6 @@ void Player::performStateChange()
 			break;
 		}
 		m_nextState = IPState::SNULL;
+		m_currentState->getAnimation()->Reset();
 	}
 }

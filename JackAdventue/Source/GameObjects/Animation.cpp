@@ -11,6 +11,7 @@ Animation::Animation(sf::Texture& texture, sf::Vector2i frameNum, float frameTim
 	CalculateRectUV();
 	ApplyRect();
 	this->setOrigin((sf::Vector2f)m_rectSize / 2.f);
+	m_modeStopAtEndFrame = false;
 }
 
 void Animation::CalculateRectSize()
@@ -32,6 +33,7 @@ void Animation::ApplyRect()
 
 void Animation::Update(float detaTime)
 {
+	if (m_currentFrame.x == m_frameNum.x - 1 && m_modeStopAtEndFrame) return;
 	m_currentTime += detaTime;
 	if (m_currentTime >= m_frameTime) {
 		m_currentFrame.x++;
@@ -42,4 +44,15 @@ void Animation::Update(float detaTime)
 		ApplyRect();
 		m_currentTime -= m_frameTime;
 	}
+}
+
+void Animation::Reset()
+{
+	m_currentFrame.x = 0;
+	m_currentTime = 0.f;
+}
+
+void Animation::setModeEndFrame(bool stop)
+{
+	m_modeStopAtEndFrame = stop;
 }

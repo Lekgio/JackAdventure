@@ -8,6 +8,7 @@ PSFall::PSFall(IPlayer* player)
 void PSFall::Init()
 {
 	m_Animation = new Animation(*DATA->getTexture("Character/Fall"), sf::Vector2i(2, 1), 0.1f);
+	m_Animation->setModeEndFrame(true);
 }
 
 void PSFall::Update(float deltaTime)

@@ -8,7 +8,9 @@ public:
 	void CalculateRectUV();
 	void ApplyRect();
 	void Update(float detaTime);
+	void Reset();
 
+	void setModeEndFrame(bool stop);
 private:
 	sf::Vector2i m_frameNum;
 	sf::Vector2i m_currentFrame;
@@ -20,4 +22,5 @@ private:
 	sf::Vector2i m_rectSize;
 	sf::IntRect m_rect;
 
+	bool m_modeStopAtEndFrame;
 };
