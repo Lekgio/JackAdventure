@@ -7,4 +7,13 @@ Ngôn ngữ lập trình: C++
 
 Thư viện đồ hoạ: SFML 2.6.0
 
--Đang cập nhật project-
+## Thông báo
+### 5/9:
+
+Sắp tới tôi có việc bận, không có nhiều thời gian để triển khai source code game đuợ.
+
+Mong mọi người thông cảm cho mình
+
+Mình vẫn sẽ triển khai source nhưng với số lượng ít hơn so với lúc trước.
+
+Vậy chỉ có thế thôi (⁠╯⁠︵⁠╰⁠,⁠)
