@@ -8,12 +8,12 @@ Ngôn ngữ lập trình: C++
 Thư viện đồ hoạ: SFML 2.6.0
 
 ## Thông báo
-### 5/9:
+### 17/9:
 
-Sắp tới tôi có việc bận, không có nhiều thời gian để triển khai source code game đuợc.
+Sau 2 tuần thì mình thấy khối lượng việc bận nên là mình sẽ dừng project này, và sẽ ko triển khai thêm source nữa
 
-Mong mọi người thông cảm cho mình
+chắc có lẽ thời gian đó sẽ lâu và cũng sẽ là lúc mình off sau khi thông báo
 
-Mình vẫn sẽ triển khai source nhưng với số lượng ít hơn so với lúc trước.
+hẹn mọi người vào ngày 15/6/2024
 
 Vậy chỉ có thế thôi (⁠╯⁠︵⁠╰⁠,⁠) 😥
