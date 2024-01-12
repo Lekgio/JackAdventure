@@ -23,6 +23,9 @@
     <Filter Include="Source Files\GameObjects\Component">
       <UniqueIdentifier>{cd25934e-cfce-4424-a520-df20bc45946e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameObjects\Creep">
+      <UniqueIdentifier>{38e01c34-04f6-4e23-97c1-7f3adcb4b109}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JackAdventue.cpp">
@@ -96,6 +99,9 @@
     </ClCompile>
     <ClCompile Include="Source\GameObjects\Animation.cpp">
       <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjects\Creep.cpp">
+      <Filter>Source Files\GameObjects\Creep</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +185,9 @@
     </ClInclude>
     <ClInclude Include="Source\GameObjects\Animation.h">
       <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\Creep.h">
+      <Filter>Source Files\GameObjects\Creep</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,6 +2,7 @@
 #include "GameStateBase.h"
 #include "../GameObjects/ParallaxBackground.h"
 #include "../GameObjects/Player.h"
+#include "../GameObjects/Creep.h"
 
 class GSPlay :public GameStateBase {
 public:
@@ -18,4 +19,5 @@ public:
 private:
 	ParallaxBackground m_Background;
 	Player m_Player;
+	Creep m_Creep;
 };

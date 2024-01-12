@@ -2,7 +2,7 @@
 
 ResourceManager::ResourceManager()
 {
-	m_Path = "../../Data/";
+	m_Path = "../Data/";
 	m_TexturePath = m_Path + "Textures/";
 	m_FontPath = m_Path + "Fonts/";
 }

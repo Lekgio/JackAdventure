@@ -138,6 +138,7 @@
     <ClCompile Include="Source\GameManager\ResourceManager.cpp" />
     <ClCompile Include="Source\GameManager\WindowConnector.cpp" />
     <ClCompile Include="Source\GameObjects\Animation.cpp" />
+    <ClCompile Include="Source\GameObjects\Creep.cpp" />
     <ClCompile Include="Source\GameObjects\GameButton.cpp" />
     <ClCompile Include="Source\GameObjects\HitBox.cpp" />
     <ClCompile Include="Source\GameObjects\Layer.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Source\GameManager\Singleton.h" />
     <ClInclude Include="Source\GameManager\WindowConnector.h" />
     <ClInclude Include="Source\GameObjects\Animation.h" />
+    <ClInclude Include="Source\GameObjects\Creep.h" />
     <ClInclude Include="Source\GameObjects\GameButton.h" />
     <ClInclude Include="Source\GameObjects\HitBox.h" />
     <ClInclude Include="Source\GameObjects\IPlayer.h" />

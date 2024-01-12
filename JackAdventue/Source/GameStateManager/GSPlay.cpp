@@ -25,16 +25,19 @@ void GSPlay::Init()
 	printf("Play game\n");
 	m_Background.Init();
 	m_Player.Init();
+	m_Creep.Init();
 }
 
 void GSPlay::Update(float deltaTime)
 {
 	m_Background.Update(deltaTime);
 	m_Player.Update(deltaTime);
+	m_Creep.Update(deltaTime);
 }
 
 void GSPlay::Render(sf::RenderWindow* window)
 {
 	m_Background.Render(window);
 	m_Player.Render(window);
+	m_Creep.Render(window);
 }

@@ -50,7 +50,7 @@ void Player::Init()
 	m_attackState->Init();
 
 	m_HitBox = new HitBox(sf::Vector2i(15, 30));
-	m_HitBox->setPosition(400, 400);
+	m_HitBox->setPosition(400, groundY);
 	m_HitBox->Init(sf::Vector2f(100, 500));
 }
 
