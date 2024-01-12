@@ -8,7 +8,6 @@ Ngôn ngữ lập trình: C++
 Thư viện đồ hoạ: SFML 2.6.0
 
 ## Thông báo
-
 ### 12/1/2024
 
 Hello, vì sao mình quay lại sớm hơn dự kiến?
