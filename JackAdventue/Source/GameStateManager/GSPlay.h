@@ -2,7 +2,8 @@
 #include "GameStateBase.h"
 #include "../GameObjects/ParallaxBackground.h"
 #include "../GameObjects/Player.h"
-#include "../GameObjects/Creep.h"
+#include "../GameObjects/CreepBat.h"
+#include "../GameObjects/CreepRino.h"
 
 class GSPlay :public GameStateBase {
 public:
@@ -19,5 +20,5 @@ public:
 private:
 	ParallaxBackground m_Background;
 	Player m_Player;
-	Creep m_Creep;
+	std::list <Creep*> m_listCreep;
 };

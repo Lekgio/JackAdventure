@@ -4,6 +4,8 @@ D:\Hà\JackAdventure\JackAdventue\Source\GameManager\ResourceManager.cpp;D:\Hà\
 D:\Hà\JackAdventure\JackAdventue\Source\GameManager\WindowConnector.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\WindowConnector.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Animation.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\Animation.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Creep.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\Creep.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\CreepBat.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\CreepBat.obj
+D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\CreepRino.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\CreepRino.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\GameButton.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\GameButton.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\HitBox.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\HitBox.obj
 D:\Hà\JackAdventure\JackAdventue\Source\GameObjects\Layer.cpp;D:\Hà\JackAdventure\JackAdventue\x64\Debug\Layer.obj

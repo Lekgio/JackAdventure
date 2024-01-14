@@ -103,6 +103,12 @@
     <ClCompile Include="Source\GameObjects\Creep.cpp">
       <Filter>Source Files\GameObjects\Creep</Filter>
     </ClCompile>
+    <ClCompile Include="Source\GameObjects\CreepRino.cpp">
+      <Filter>Source Files\GameObjects\Creep</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjects\CreepBat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h">
@@ -187,6 +193,12 @@
       <Filter>Source Files\GameObjects\Component</Filter>
     </ClInclude>
     <ClInclude Include="Source\GameObjects\Creep.h">
+      <Filter>Source Files\GameObjects\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\CreepRino.h">
+      <Filter>Source Files\GameObjects\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\CreepBat.h">
       <Filter>Source Files\GameObjects\Creep</Filter>
     </ClInclude>
   </ItemGroup>

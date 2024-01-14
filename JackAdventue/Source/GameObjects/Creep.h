@@ -6,12 +6,14 @@ class Creep {
 public:
 	Creep();
 	~Creep();
-	void Init();
-	void Update(float deltaTime);
-	void Render(sf::RenderWindow* window);
+	virtual void Init();
+	virtual void Update(float deltaTime);
+	virtual void Render(sf::RenderWindow* window);
 
 	HitBox* getHitBox() { return m_HitBox; }
-private:
+	void setStartPoint(sf::Vector2f point) { m_startPoint = point; }
+protected:
+	sf::Vector2f m_startPoint;
 	HitBox* m_HitBox;
 	Animation* m_currentAni;
 	Animation* m_deathAni;
