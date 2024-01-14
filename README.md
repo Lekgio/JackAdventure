@@ -21,3 +21,17 @@ Nói thật là mình vừa trải qua 2 kì thi: Cuối HKI và Khảo sát ch�
 Hôm nay và mai là khối trên thi nên mình được nghỉ đến hết ngày 14/1, từ ngày 15 mình phải quay lại việc học
 
 Nói đúng ra là mình chỉ quay lại từ giờ đến hết 14 thôi, 15 mình lại đi học lại và chỉ khi nào có kỳ nghỉ dài thì mình mới quay lại.
+
+### 14/1/2024
+
+Hello, đã hết kỳ nghỉ của mình rồi, :<<<<
+
+Từ mai ngày 15/1 trở đi mình sẽ không bao giờ quay lại
+
+chỉ trừ khi nào có kỳ nghỉ dài thôi
+
+Và commit này sẽ là commit cuối cùng trước khi mình quay lại việc học
+
+nếu không có kỳ nghỉ dài nào nữa thì hẹn gặp mọi người vào ngày 6/6/2024
+
+vậy chỉ có thế thôi. BYE mọi người 😥
