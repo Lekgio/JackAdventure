@@ -138,6 +138,7 @@
     <ClCompile Include="Source\GameManager\ResourceManager.cpp" />
     <ClCompile Include="Source\GameManager\WindowConnector.cpp" />
     <ClCompile Include="Source\GameObjects\Animation.cpp" />
+    <ClCompile Include="Source\GameObjects\CollisionManager.cpp" />
     <ClCompile Include="Source\GameObjects\Creep.cpp" />
     <ClCompile Include="Source\GameObjects\CreepBat.cpp" />
     <ClCompile Include="Source\GameObjects\CreepRino.cpp" />
@@ -168,6 +169,7 @@
     <ClInclude Include="Source\GameManager\Singleton.h" />
     <ClInclude Include="Source\GameManager\WindowConnector.h" />
     <ClInclude Include="Source\GameObjects\Animation.h" />
+    <ClInclude Include="Source\GameObjects\CollisionManager.h" />
     <ClInclude Include="Source\GameObjects\Creep.h" />
     <ClInclude Include="Source\GameObjects\CreepBat.h" />
     <ClInclude Include="Source\GameObjects\CreepRino.h" />

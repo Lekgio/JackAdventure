@@ -16,9 +16,16 @@ void PSAttack::Update(float deltaTime)
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
 		m_Player->changeNextState(RUN);
 	}
+	if (!m_Player->getHitBox()->isAlive()) m_Player->changeNextState(IPState::DEATH);
+	m_Animation->setPosition(m_Player->getHitBox()->getPosition());
 }
 
 void PSAttack::Render(sf::RenderWindow* window)
 {
 	window->draw(*m_Animation);
+}
+
+void PSAttack::Reset()
+{
+	m_Animation->Reset();
 }

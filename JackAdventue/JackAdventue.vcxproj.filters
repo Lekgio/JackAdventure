@@ -26,6 +26,9 @@
     <Filter Include="Source Files\GameObjects\Creep">
       <UniqueIdentifier>{38e01c34-04f6-4e23-97c1-7f3adcb4b109}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\GameObjects\Collision">
+      <UniqueIdentifier>{c7f64ef1-0d29-4b6e-97a2-a53fdaff987e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JackAdventue.cpp">
@@ -106,8 +109,11 @@
     <ClCompile Include="Source\GameObjects\CreepRino.cpp">
       <Filter>Source Files\GameObjects\Creep</Filter>
     </ClCompile>
+    <ClCompile Include="Source\GameObjects\CollisionManager.cpp">
+      <Filter>Source Files\GameObjects\Collision</Filter>
+    </ClCompile>
     <ClCompile Include="Source\GameObjects\CreepBat.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\GameObjects\Creep</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -200,6 +206,9 @@
     </ClInclude>
     <ClInclude Include="Source\GameObjects\CreepBat.h">
       <Filter>Source Files\GameObjects\Creep</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\CollisionManager.h">
+      <Filter>Source Files\GameObjects\Collision</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

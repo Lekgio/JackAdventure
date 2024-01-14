@@ -10,6 +10,7 @@ public:
 	void Render(sf::RenderWindow* window);
 
 	Animation* getAnimation() { return m_Animation; }
+	void Reset();
 private:
 	IPlayer* m_Player;
 	Animation* m_Animation;

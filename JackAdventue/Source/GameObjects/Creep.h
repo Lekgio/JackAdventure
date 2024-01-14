@@ -12,10 +12,14 @@ public:
 
 	HitBox* getHitBox() { return m_HitBox; }
 	void setStartPoint(sf::Vector2f point) { m_startPoint = point; }
+
+	void Reset();
 protected:
 	sf::Vector2f m_startPoint;
 	HitBox* m_HitBox;
 	Animation* m_currentAni;
 	Animation* m_deathAni;
 	Animation* m_runAni;
+
+	bool m_stop;
 };

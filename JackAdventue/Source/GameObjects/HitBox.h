@@ -1,5 +1,11 @@
 #pragma once
 #include "../GameManager/ResourceManager.h"
+enum TAG
+{
+	PLAYER,
+	CREEP,
+	BOSS,
+};
 
 class HitBox :public sf::RectangleShape{
 public:
@@ -8,6 +14,13 @@ public:
 	void Init(sf::Vector2f velocity);
 
 	sf::Vector2f getVelocity();
+	TAG getTag() { return m_Tag; };
+	void SetTag(TAG tag) { m_Tag = tag; }
+
+	bool isAlive() { return m_isAlive; };
+	void setAlive(bool alive) { m_isAlive = alive; }
 private:
 	sf::Vector2f m_Velocity;
+	bool m_isAlive;
+	TAG m_Tag;
 };

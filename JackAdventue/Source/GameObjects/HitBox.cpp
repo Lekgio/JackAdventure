@@ -7,6 +7,7 @@ HitBox::HitBox(sf::Vector2i size):RectangleShape((sf::Vector2f)size)
 	this->setOutlineThickness(1.f);
 	this->setOutlineColor(sf::Color::Red);
 	m_Velocity = sf::Vector2f(0, 0);
+	m_isAlive = true;
 }
 
 HitBox::~HitBox()

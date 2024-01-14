@@ -4,6 +4,7 @@
 #include "../GameObjects/Player.h"
 #include "../GameObjects/CreepBat.h"
 #include "../GameObjects/CreepRino.h"
+#include "../GameObjects/CollisionManager.h"
 
 class GSPlay :public GameStateBase {
 public:
@@ -21,4 +22,5 @@ private:
 	ParallaxBackground m_Background;
 	Player m_Player;
 	std::list <Creep*> m_listCreep;
+	CollisionManager m_CollisionManager;
 };

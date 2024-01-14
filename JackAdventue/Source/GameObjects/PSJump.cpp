@@ -31,11 +31,17 @@ void PSJump::Update(float deltaTime)
 	{
 		m_Player->getHitBox()->move(m_Player->getHitBox()->getVelocity().x * deltaTime, 0);
 	}
-	
+	if (!m_Player->getHitBox()->isAlive()) m_Player->changeNextState(IPState::FALL);
 	m_Animation->setPosition(m_Player->getHitBox()->getPosition());
 }
 
 void PSJump::Render(sf::RenderWindow* window)
 {
 	window->draw(*m_Animation);
+}
+
+void PSJump::Reset()
+{
+	m_currentTime = 0;
+	m_Animation->Reset();
 }

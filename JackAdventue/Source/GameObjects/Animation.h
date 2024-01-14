@@ -11,6 +11,9 @@ public:
 	void Reset();
 
 	void setModeEndFrame(bool stop);
+
+	sf::Vector2i getFrameNum() { return m_frameNum; }
+	sf::Vector2i getCurrentFrame() { return m_currentFrame; }
 private:
 	sf::Vector2i m_frameNum;
 	sf::Vector2i m_currentFrame;
