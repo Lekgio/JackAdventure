@@ -26,16 +26,7 @@ void GSPlay::Init()
 	m_Background.Init();
 	m_Player.Init();
 	m_CollisionManager.addObj(m_Player.getHitBox());
-	Creep* creep = new CreepBat();
-	m_listCreep.push_back(creep);
-
-	creep = new CreepRino();
-	m_listCreep.push_back(creep);
-
-	for (auto it : m_listCreep) {
-		it->Init();
-		m_CollisionManager.addObj(it->getHitBox());
-	}
+	m_CreepManager.Init(m_CollisionManager);
 }
 
 void GSPlay::Update(float deltaTime)
@@ -43,9 +34,7 @@ void GSPlay::Update(float deltaTime)
 
 	if (m_Player.getHitBox()->isAlive()) m_Background.Update(deltaTime);
 	m_Player.Update(deltaTime);
-	for (auto it : m_listCreep) {
-		it->Update(deltaTime);
-	}
+	m_CreepManager.Update(deltaTime);
 	m_CollisionManager.Update();
 }
 
@@ -53,7 +42,5 @@ void GSPlay::Render(sf::RenderWindow* window)
 {
 	m_Background.Render(window);
 	m_Player.Render(window);
-	for (auto it : m_listCreep) {
-		it->Render(window);
-	}
+	m_CreepManager.Render(window);
 }

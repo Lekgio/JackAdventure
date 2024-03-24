@@ -13,7 +13,10 @@ bool CollisionManager::checkCollision(HitBox* a, HitBox* b)
 void CollisionManager::Update()
 {
     for (auto a : m_listObj) {
+        if (a->isAlive() == false) continue;
         for (auto b : m_listObj) {
+            if (b->isAlive() == false) continue;
+
             if (a->getTag() == b->getTag()) continue;
             if (!checkCollision(a, b)) continue;
 

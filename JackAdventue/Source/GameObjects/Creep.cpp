@@ -2,6 +2,7 @@
 
 Creep::Creep()
 {
+	m_stop = true;
 }
 
 Creep::~Creep()

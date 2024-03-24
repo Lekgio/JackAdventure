@@ -8,30 +8,22 @@ Ngôn ngữ lập trình: C++
 Thư viện đồ hoạ: SFML 2.6.0
 
 ## Thông báo
-### 12/1/2024
+### 24/3/2024
 
-Hello, vì sao mình quay lại sớm hơn dự kiến?
+Hello, hơn 1 tháng rồi nhỉ.
 
-Thật ra là mình còn đang đi học, và mình dừng lại project này vì mình thời gian biểu của mình kín lịch rồi
+Tại sao mình lại quay lại đây? Chằng phải có kỳ nghỉ nào đó chăng?
 
-Còn tại sao mình lại quay lại lúc này?
+Thật ra là tuần vừa rồi mình vừa kiểm tra giữa học kì xong
 
-Nói thật là mình vừa trải qua 2 kì thi: Cuối HKI và Khảo sát chất lượng Cuối HKI
+Hôm qua là ngày thi cuối cùng của mình
 
-Hôm nay và mai là khối trên thi nên mình được nghỉ đến hết ngày 14/1, từ ngày 15 mình phải quay lại việc học
+Mình chỉ có 1 ngày đề nghỉ ngơi thôi, mai mình lại phải đi học rồi
 
-Nói đúng ra là mình chỉ quay lại từ giờ đến hết 14 thôi, 15 mình lại đi học lại và chỉ khi nào có kỳ nghỉ dài thì mình mới quay lại.
+Do là chán quá kiểu không có việc gì để làm ý nên là mình ngồi lại làm game tiếp
 
-### 14/1/2024
+Chứ mọi chủ nhật mình còn bài tập, soạn bài nữa, chẳng đủ thời gian để làm đâu ^^
 
-Hello, đã hết kỳ nghỉ của mình rồi, :<<<<
+Nên đây vừa là một commnit đầu tiên và cuối cùng trong tháng 3 này.
 
-Từ mai ngày 15/1 trở đi mình sẽ không bao giờ quay lại
-
-chỉ trừ khi nào có kỳ nghỉ dài thôi
-
-Và commit này sẽ là commit cuối cùng trước khi mình quay lại việc học
-
-nếu không có kỳ nghỉ dài nào nữa thì hẹn gặp mọi người vào ngày 6/6/2024
-
-vậy chỉ có thế thôi. BYE mọi người 😥
+Vậy nhé!

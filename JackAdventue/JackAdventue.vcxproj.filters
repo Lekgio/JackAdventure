@@ -115,6 +115,9 @@
     <ClCompile Include="Source\GameObjects\CreepBat.cpp">
       <Filter>Source Files\GameObjects\Creep</Filter>
     </ClCompile>
+    <ClCompile Include="Source\GameObjects\CreepManager.cpp">
+      <Filter>Source Files\GameObjects\Creep</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application.h">
@@ -209,6 +212,9 @@
     </ClInclude>
     <ClInclude Include="Source\GameObjects\CollisionManager.h">
       <Filter>Source Files\GameObjects\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjects\CreepManager.h">
+      <Filter>Source Files\GameObjects\Creep</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

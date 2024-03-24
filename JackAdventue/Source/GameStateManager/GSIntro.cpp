@@ -23,7 +23,7 @@ void GSIntro::Resume()
 
 void GSIntro::Init()
 {
-	sf::Texture* texture = DATA->getTexture("HB");
+	sf::Texture* texture = DATA->getTexture("HongBang");
 	m_Logo.setTexture(*texture);
 	m_Logo.setPosition(screenWidth / 2, screenHeight / 2);
 	m_Logo.setOrigin((sf::Vector2f)texture->getSize() / 2.f);

@@ -141,6 +141,7 @@
     <ClCompile Include="Source\GameObjects\CollisionManager.cpp" />
     <ClCompile Include="Source\GameObjects\Creep.cpp" />
     <ClCompile Include="Source\GameObjects\CreepBat.cpp" />
+    <ClCompile Include="Source\GameObjects\CreepManager.cpp" />
     <ClCompile Include="Source\GameObjects\CreepRino.cpp" />
     <ClCompile Include="Source\GameObjects\GameButton.cpp" />
     <ClCompile Include="Source\GameObjects\HitBox.cpp" />
@@ -172,6 +173,7 @@
     <ClInclude Include="Source\GameObjects\CollisionManager.h" />
     <ClInclude Include="Source\GameObjects\Creep.h" />
     <ClInclude Include="Source\GameObjects\CreepBat.h" />
+    <ClInclude Include="Source\GameObjects\CreepManager.h" />
     <ClInclude Include="Source\GameObjects\CreepRino.h" />
     <ClInclude Include="Source\GameObjects\GameButton.h" />
     <ClInclude Include="Source\GameObjects\HitBox.h" />
